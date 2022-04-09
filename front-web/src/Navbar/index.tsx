@@ -5,7 +5,7 @@ function Navbar(){
     return(
         <nav className="main-navbar">
            <Logo className='svg'/>
-           <a href='home' className='logo-text'>TecnoDeliver</a>
+           <a href='home' className='logo-text'>Tech Deliver</a>
         </nav>
     )
 }

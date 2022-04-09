@@ -1,0 +1,28 @@
+import './style.css';
+import {ReactComponent as MainImage} from './main.svg'
+
+function Home(){
+    return(
+        <div className='home-container'>
+            <div className='home-content'>
+                <div className='home-actions'>
+                    <h1 className='home-title'>
+                        Faça seu pedido<br/>que entregamos<br/> pra você!!
+                    </h1>
+                    <h3 className='home-subtitle'>
+                        Especialistas em entrega de produtos com drones!<br/>
+                         deixamos o produto na sua porta de casa!!
+                    </h3>
+                    <a className='home-btn-order' href='orders'>
+                        FAZER PEDIDO
+                    </a>
+                </div>
+                <div className='home-image'>
+                    <MainImage />
+                </div>
+            </div>
+
+        </div>
+    )
+}
+export default Home;
