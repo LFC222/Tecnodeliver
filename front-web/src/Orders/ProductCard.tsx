@@ -23,7 +23,8 @@ function ProductCard({product}:Props){
             <img 
                 className='order-card-image'
                 src={product.imageUri}
-                alt={product.name}/>
+                alt={product.name}
+            />
             <h3 className='order-card-price'>
                 {formatPrice(product.price)}
             </h3>
