@@ -54,7 +54,7 @@ function Orders(){
 
     return(
         <>
-            <div className='order-container'>
+            <div className='orders-container'>
                 <StepsHeader/>
                 <ProductsList 
                     products={products}
