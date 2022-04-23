@@ -4,6 +4,8 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Header from './src/Header';
 import Home from './src/Home';
+import Rotas from './src/Rotas';
+
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -17,9 +19,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Header/>
-      <Home/>
-      <StatusBar style="light" />
+      <Rotas/>
     </View>
   );
 }
